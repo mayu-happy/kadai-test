@@ -1,0 +1,91 @@
+/* public/css/login.css */
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #5c4439;
+    letter-spacing: 1px;
+}
+
+header a {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #5c4439;
+    text-decoration: none;
+    border: 1px solid #5c4439;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+main {
+    background-color: #f1e9e2;
+    padding: 50px 20px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+main h2 {
+    color: #5c4439;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #5c4439;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5c4439;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3e2f25;
+}

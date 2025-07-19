@@ -1,0 +1,96 @@
+body {
+    background-color: #f8f5f1;
+    font-family: 'Yu Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4a3c2f;
+}
+
+/* ヘッダー */
+.header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0dcd5;
+}
+
+.logo {
+    font-size: 28px;
+    color: #7a5d48;
+    margin: 0;
+}
+
+.login-button {
+    background-color: transparent;
+    border: 1px solid #e0dcd5;
+    color: #bda89c;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #f4efea;
+}
+
+/* Registerフォーム全体 */
+.register-container {
+    background-color: #ffffff;
+    width: 500px;
+    max-width: 90%;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.register-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #7f6c5b;
+    margin-bottom: 30px;
+}
+
+/* 各入力項目 */
+.register-container label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.register-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #f6f4f1;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* ボタン */
+.register-container button[type="submit"] {
+    background-color: #7a5d48;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.register-container button[type="submit"]:hover {
+    background-color: #6b4e3c;
+}
+
+/* バリデーションエラー */
+.register-container div[style*="color:red;"] {
+    margin-top: -12px;
+    margin-bottom: 12px;
+    font-size: 13px;
+}

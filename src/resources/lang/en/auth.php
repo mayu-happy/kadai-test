@@ -18,3 +18,7 @@ return [
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];
+return [
+    'email' => 'メールアドレスを入力してください',
+    'password' => 'パスワードを入力してください',
+];
