@@ -2,9 +2,8 @@
 **Dockerビルド**
 1. `git clone <リポジトリURL>`
 git@github.com:mayu-happy/kadai-test.git
-
 2. DockerDesktopアプリを立ち上げる
-3. `cd kadai-test`
+3. `cd kadai-test`でファイル移動
 4. `docker-compose up -d --build`
 
 **Laravel環境構築**
@@ -41,8 +40,8 @@ php artisan db:seed
 - Faker（ダミーデータ生成）
 
 ## ER図
-![ER図](./docs/kadai-diagram.png)
+![ER図](./docs/kadai-er.png)
 
 ## URL
-- 開発環境：http://localhost:8000
+- 開発環境：http://localhost
 - phpMyAdmin：http://localhost:8080
