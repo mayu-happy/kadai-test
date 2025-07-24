@@ -1,10 +1,11 @@
 ## 環境構築
 **Dockerビルド**
 1. `git clone <リポジトリURL>`
-https://github.com/mayu-happy/kadai-test.git
+git@github.com:mayu-happy/kadai-test.git
 
 2. DockerDesktopアプリを立ち上げる
-3. `docker-compose up -d --build`
+3. `cd kadai-test`
+4. `docker-compose up -d --build`
 
 **Laravel環境構築**
 1. `docker-compose exec php bash`
